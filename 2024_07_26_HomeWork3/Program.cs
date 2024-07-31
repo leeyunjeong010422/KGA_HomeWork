@@ -2,21 +2,28 @@
 {
     public class Program
     {
+
+        //이게 (()이건 미완성으로 뜨는데 ())이건 완성으로 떠서,,, 일단 lms에 나온 예시들은 예시대로 뜨긴 뜹니다...
         static void Main(string[] args)
         {
-            Console.Write("검사할 괄호를 입력해주세요: ");
-            string input = Console.ReadLine();
+            bool parethesesCheck = true;
 
-            if (IsParentheses(input))
+            while (parethesesCheck)
             {
-                Console.WriteLine("완성");
-            }
-            else
-            {
-                Console.WriteLine("미완성");
-            }
+                Console.Write("검사할 괄호를 입력해주세요: ");
+                string input = Console.ReadLine();
+
+                if (IsParentheses(input))
+                {
+                    Console.WriteLine("완성");
+                }
+                else
+                {
+                    Console.WriteLine("미완성");
+                }
 
 
+            }
         }
 
         static bool IsParentheses(string input)
@@ -40,6 +47,7 @@
                     return true;
                 }
             }
+
             return false;
         }
 
