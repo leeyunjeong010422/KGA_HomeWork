@@ -25,7 +25,7 @@
                     if (i==k)
                     {
                         linkedList.RemoveFirst();
-                        Console.Write($"{node.Value}");
+                        Console.Write($"{node.Value, 3}");
                     }
                     else
                     {
