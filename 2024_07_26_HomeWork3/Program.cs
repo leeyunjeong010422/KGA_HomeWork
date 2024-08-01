@@ -2,8 +2,6 @@
 {
     public class Program
     {
-
-        //이게 (()이건 미완성으로 뜨는데 ())이건 완성으로 떠서,,, 일단 lms에 나온 예시들은 예시대로 뜨긴 뜹니다...
         static void Main(string[] args)
         {
             bool parethesesCheck = true;
