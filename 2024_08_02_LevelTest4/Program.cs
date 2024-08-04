@@ -89,7 +89,7 @@
 
                     Console.WriteLine();
                     Console.Write("이동할 장소를 선택하세요(뒤로가기 0): ");
-                    string input = Console.ReadLine();
+                    string? input = Console.ReadLine();
 
                     if (int.TryParse(input, out int number))
                     {
@@ -103,6 +103,7 @@
                             locationStack.Push(nowLocation);
                             nowLocation = nowLocation.ConnectedLocations[number - 1];
                         }
+
                         else
                         {
                             Console.WriteLine();
@@ -129,7 +130,7 @@
             {
                 if (locationStack.Count == 0)
                 {
-                    Console.WriteLine("");
+                    Console.WriteLine($"{nowLocation.Name}");
                 }
 
                 bool first = true;

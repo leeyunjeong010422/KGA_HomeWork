@@ -13,7 +13,7 @@
             Console.WriteLine("4. 종료");
             Console.Write("메뉴를 선택하세요: ");
 
-            string input = Console.ReadLine();
+            string? input = Console.ReadLine();
 
             switch (input)
             {

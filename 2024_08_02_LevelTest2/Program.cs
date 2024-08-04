@@ -20,9 +20,9 @@
                 Console.WriteLine();
             }
         }
-
         public abstract class Monster
         {
+            //protected string name;
             public string Name {  get; set; }
 
             public Monster(string name)

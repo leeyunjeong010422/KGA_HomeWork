@@ -1,5 +1,9 @@
 ﻿namespace _2024_07_26_HomeWork3_스택
 {
+
+    //<괄호계산기>
+    //스택에 열린괄호가 없는 상황에서 Peek을 통해 최신요소를 확인하려고 하는 상황에서 예외가 발생할 것입니다.
+    //괄호에 아무런 열린 괄호가 없는 상황에서 닫힌괄호를 체크하는 경우를 확인해주세요!
     public class Program
     {
         static void Main(string[] args)
