@@ -52,8 +52,9 @@ namespace 퀵정렬
             }
 
             //피벗을 기준으로 왼쪽 부분은 작은 값들, 오른쪽 부분은 큰 값이 정렬
-            QuickSort(array, start, right - 1);
-            QuickSort(array, right + 1, end);
+            QuickSort(array, start, right - 1); //작은 것들끼리 정렬하기
+            QuickSort(array, right + 1, end); //큰 것들끼리 정렬하기
+
 
 
         }
