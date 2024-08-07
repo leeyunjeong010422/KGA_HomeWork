@@ -3,7 +3,7 @@
     internal class Program
     {
 
-        class Chracter
+        class Chracter 
         {
             private int level;
             private int hp;
