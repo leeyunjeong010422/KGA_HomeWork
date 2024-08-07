@@ -1,6 +1,6 @@
 ﻿namespace 순차탐색
 { 
-     //자료구조에서 순차적으로 찾고자 하는 데이터를 탐색
+     //자료구조에서 순차적으로 찾고자 하는 데이터를 탐색 
     public class Program
     {
         static void Main(string[] args)
