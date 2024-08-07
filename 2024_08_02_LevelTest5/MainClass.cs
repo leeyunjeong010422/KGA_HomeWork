@@ -7,7 +7,7 @@
         {
             Console.Clear();
             Console.WriteLine("==========상점메뉴==========");
-            Console.WriteLine("1. 아이템 구매");
+            Console.WriteLine("1. 아이템 구매"); 
             Console.WriteLine("2. 아이템 판매");
             Console.WriteLine("3. 아이템 확인");
             Console.WriteLine("4. 종료");
