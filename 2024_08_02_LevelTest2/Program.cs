@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Monster[] monsters = new Monster[5];
+            Monster[] monsters = new Monster[5]; 
             //Monster[] monsters = new Monster[10];
             monsters[0] = new Pikachu();
             monsters[1] = new Charmander();
